@@ -22,6 +22,8 @@ A **B+ tree** is an [m-ary tree](https://en.wikipedia.org/wiki/M-ary_tree "M-ary
 | Root Node | Internal Nodes or Leaf Nodes | 2 | b | 2 - 7 
 | Internal Node | Internal Nodes or Leaf Nodes |![\lceil b/2\rceil ](https://wikimedia.org/api/rest_v1/media/math/render/svg/cb0f3f27bd45fd9443cafc552a6c36e7080109bf) | b | 4 - 7 
 | Leaf Node | Records | ![\lceil b/2\rceil ](https://wikimedia.org/api/rest_v1/media/math/render/svg/cb0f3f27bd45fd9443cafc552a6c36e7080109bf) | b | 4 - 7 
+
+![alt text](https://sqlhints.com/wp-content/uploads/2018/05/Structure-of-Clustered-Index.jpg)
 ### Search
 ```
 function search(k) is
