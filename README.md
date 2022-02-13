@@ -56,7 +56,7 @@ Where p is the array of keys of the current node and d is the order of the tree
 
 B-trees grow at the root and not at the leaves.
 ### How I make use of it in the DBMS application
-B+ Trees are great way of implementing a table that has Primary Key assigned to one of its columns because we know the keys should be unique thus each node of the tree can contain only unique keys inside it, giving us an ellegant way to insert, delete, find nodes in **O(log~m~n)** time complexity where **m** is the degree of the tree. Every table that has primary key we will call Indexed table where the index is placed on one of the columns. In short, I am using the B+ Tree only for the tables that are **Indexed**, this way accessing the records at a specified Key becomes very optimal.
+B+ Trees are great way of implementing a table that has Primary Key assigned to one of its columns because we know the keys should be unique thus each node of the tree can contain only unique keys inside it, giving us an ellegant way to insert, delete, find nodes in **O(log<sub>m</sub>n)** time complexity where **m** is the degree of the tree. Every table that has primary key we will call Indexed table where the index is placed on one of the columns. In short, I am using the B+ Tree only for the tables that are **Indexed**, this way accessing the records at a specified Key becomes very optimal.
 ## Query Processor
 This class represents an entity used for processing queries in the form of a string input (**Mainly WHERE clauses**).
 In short, a query object will be initialized with a string, after which the string will be converted to a form that is easier to use in order to compare different WHERE clauses.
