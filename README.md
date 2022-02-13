@@ -61,4 +61,6 @@ B+ Trees are great way of implementing a table that has Primary Key assigned to 
 This class represents an entity used for processing queries in the form of a string input (**Mainly WHERE clauses**).
 In short, a query object will be initialized with a string, after which the string will be converted to a form that is easier to use in order to compare different WHERE clauses.
 
-
+## Running the application
+To run it, just clone the repository somewhere on your disk and execute the .sln file. 
+> To use filesystem you need C++17
