@@ -1,0 +1,10 @@
+enum class Operator
+{
+	LESS_THAN,
+	GREATER_THAN,
+	EQUAL,
+	NOT_EQUAL,
+	LESS_THAN_OR_EQUAL,
+	GREATER_THAN_OR_EQUAL,
+	NONE
+};
