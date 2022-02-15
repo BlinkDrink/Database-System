@@ -63,7 +63,6 @@ public:
 	 * Insert a new record at the end of the page
 	 * @param record the record to be inserted
 	 * @return a boolean to indicate a successful/failed insertion
-	 * @throws IOException If an I/O error occurred
 	 */
 	bool addRecord(const Record& record)
 	{
